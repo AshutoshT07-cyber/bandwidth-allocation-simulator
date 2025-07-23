@@ -2,8 +2,6 @@
 
 A C++ program that simulates bandwidth allocation and client session management in an Internet Cafe.
 
----
-
 ## Table of Contents
 
 * Description
@@ -20,14 +18,10 @@ A C++ program that simulates bandwidth allocation and client session management 
 * Contributing
 * License
 * Contact
-
----
-
+* 
 ## Description
 
 This project implements a simulation of an Internet Cafe using C++. It models fair bandwidth distribution among connected clients and tracks session times. The program includes input validation and offers both automatic and interactive simulation modes for user flexibility.
-
----
 
 ## Features
 
@@ -38,8 +32,6 @@ This project implements a simulation of an Internet Cafe using C++. It models fa
 * Input validation for incorrect or unrealistic values
 * Clear status updates for each simulated minute
 
----
-
 ## How to Use
 
 ### Compilation
@@ -48,13 +40,12 @@ Use the following command in your terminal (C++11 standard required):
 
 ```bash
 g++ -o InternetCafeSimulator bandwidth_alloc.cpp -std=c++11
-```
+
 
 ### Running Automatic Simulation
 
 ```bash
-./InternetCafeSimulator
-```
+./bandwidth_alloc
 
 * Select option `1` for automatic simulation
 * Add clients with bandwidth and session time
@@ -63,8 +54,7 @@ g++ -o InternetCafeSimulator bandwidth_alloc.cpp -std=c++11
 ### Running Interactive Mode
 
 ```bash
-./InternetCafeSimulator
-```
+./bandwidth_alloc
 
 * Select option `2`
 * You can:
@@ -75,13 +65,10 @@ g++ -o InternetCafeSimulator bandwidth_alloc.cpp -std=c++11
   * Update total bandwidth
   * Exit the program
 
----
-
 ## Example
 
 ### Automatic Simulation
 
-```
 Select simulation mode:
 1. Automatic Simulation
 2. Interactive Mode
@@ -122,12 +109,4 @@ Feel free to fork this repository and submit pull requests for improvements, bug
 
 This project is licensed under the MIT License.
 
----
 
-## Contact
-
-Created by \[Your Name] – Feel free to reach out with suggestions or feedback.
-
----
-
-Would you like me to create this as a plain `.txt` file or upload-ready `description.md` file too?
